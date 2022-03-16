@@ -1,0 +1,46 @@
+.box{
+    display: flex;
+    justify-content: center;/*yatay hiza*/
+    align-items: center;/*dikey hiza*/
+}
+button{
+    display: block;
+    margin: 20px auto;
+    background-color: red;
+    color:aliceblue;
+    border: 0;
+    padding: 6px 10px;
+    cursor: pointer;
+}
+.main-PopUp{
+    /* background-color: rgba(155, 155, 155, 0.8); */
+    opacity: 0.5;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+.PopUp{
+    text-align: center;
+    width: 100%;
+    max-width: 450px;
+    margin: auto;
+    margin-top: 250px;
+    padding: 30px;
+    background-color: aliceblue;
+}
+.PopUp a{
+    background-color: red;
+    color: wheat;
+    padding: 5px 10px;
+    text-decoration: none;
+}
+.close-PopUp{
+    position: absolute;
+    top: 6px;
+    left:6px;
+    background-color: red;
+    color: #000;
+}

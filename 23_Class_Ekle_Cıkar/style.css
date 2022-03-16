@@ -1,0 +1,12 @@
+.error{
+    padding: 10px;
+    border: 1px dashed red;
+    background-color: red;
+    color: aliceblue;
+}
+.success{
+    padding: 10px;
+    border: 1px solid green;
+    color: aliceblue;
+    background-color: green;
+}
